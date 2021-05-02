@@ -1,0 +1,6 @@
+n=set(input("輸入值為:"))
+n.remove(",")
+a= "".join(sorted(n,reverse=True))
+b="".join(sorted(n))
+c=(int(a)-int(b))
+print(c)
